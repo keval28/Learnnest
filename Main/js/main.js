@@ -177,7 +177,7 @@
     time: 1000
   });
 
-  // Porfolio isotope and filter
+  // Featured isotope and filter
   var featuredIsotope = $('.featured-container').isotope({
     itemSelector: '.featured-item',
     layoutMode: 'fitRows'
