@@ -435,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 80%;
   margin: 0 auto 30px auto;
   color: #fff;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 @media (min-width: 1024px) {
@@ -494,7 +494,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
