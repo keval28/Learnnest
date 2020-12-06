@@ -931,11 +931,27 @@ section {
   padding-bottom: 0;
 }
 
+#featured .featured-item .featured-info h5 {
+  font-size: 15px;
+  line-height: 1px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  padding-bottom: 0;
+}
+
 #featured .featured-item .featured-info h4 a {
   color: #333;
 }
 
+#featured .featured-item .featured-info h5 a {
+  color: #333;
+}
+
 #featured .featured-item .featured-info h4 a:hover {
+  color: #18d26e;
+}
+
+#featured .featured-item .featured-info h5 a:hover {
   color: #18d26e;
 }
 
