@@ -101,7 +101,7 @@ nav ul li a span{
 nav ul li a span.rotate{
   transform: translateY(-50%) rotate(-180deg);
 }
-.content{
+/*.content{
   position: absolute;
   top: 50%;
   left: 58%;
@@ -116,4 +116,25 @@ nav ul li a span.rotate{
 .content p{
   font-size: 30px;
   font-weight: 500;
+}*/
+div.content {
+  margin-left: 350px;
+  padding: 1px 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }
